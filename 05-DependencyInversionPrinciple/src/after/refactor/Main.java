@@ -2,6 +2,7 @@ package after.refactor;
 
 import mocked.utils.JSONFormatter;
 import mocked.utils.Message;
+import mocked.utils.XMLFormatter;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -14,7 +15,7 @@ public class Main {
         MessagePrinter printer = new MessagePrinter();
 
         try(PrintWriter writer = new PrintWriter(new FileWriter("tst_message.txt"))) {
-            printer.writeMessage(new JSONFormatter(), writer, msg);
+            printer.writeMessage(new XMLFormatter(), writer, msg);
         }
     }
 }

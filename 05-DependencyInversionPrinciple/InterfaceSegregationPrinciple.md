@@ -3,8 +3,8 @@
 The formal definition for the fifth SOLID principle,
 Dependency Inversion Principle, is that:
 
-> ### _"A. High level modules should not depend upon low level modules. Both should depende upon abstractions_
-> ### _B. Abstractions should not depend on details. Details should depend upon abstractions"_
+> ### _"A. High level modules should not depend upon low level modules. Both should depend upon abstractions_
+> ### _B. Abstractions should not depend on details. Details should depend upon abstractions."_
 
 Now this is the last one, and also the big one as well. If you are
 using a framework such as Spring, it already implements this principle.

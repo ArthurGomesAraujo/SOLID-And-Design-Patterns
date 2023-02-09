@@ -12,3 +12,9 @@ The packages are divided into 2 (sometimes 3) parts:
 
 Inside every topic, there's a brief explanation of the context of the code and how to
 better it, using the context of the principle or pattern described.
+
+The Design Patterns are divided into three categories:
+
+1. Creational - Deal with the process of creation of objects and classes.
+2. Structural - Deal with how classes and objects are arranged or composed.
+3. Behavioral - How classes and objects interact & communicate with each other.

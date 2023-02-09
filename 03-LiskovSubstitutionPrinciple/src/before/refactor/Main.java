@@ -10,7 +10,7 @@ public class Main {
         System.out.println(square.computeArea());
 
         useRectangle(rectangle);
-        useRectangle(square);
+        useSquare(square);
     }
 
     private static void useRectangle(Rectangle rectangle) {
@@ -18,5 +18,9 @@ public class Main {
         rectangle.setWidth(30);
         assert rectangle.getHeight() == 20 : "Height not equal to 20";
         assert rectangle.getWidth() == 30 : "Width not equal to 30";
+    }
+
+    private static void useSquare(Square square) {
+
     }
 }
